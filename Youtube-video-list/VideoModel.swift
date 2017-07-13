@@ -22,7 +22,7 @@ class VideoModel: NSObject {
         //assignment of properties
         video1.videoId = "jofNR_WkoCE"
         video1.videoTitle  = "Ylvis - The Fox(What does The Fox Say?)"
-        video1.description = "video1"
+        video1.videoDescription = "video1"
         
         videos.append(video1)
         
@@ -31,7 +31,7 @@ class VideoModel: NSObject {
         //assignment of properties
         video2.videoId = "9bZkp7q19f0"
         video2.videoTitle  = "PSY - GANGNAM STYLE"
-        video2.description = "video2"
+        video2.videoDescription = "video2"
         
         videos.append(video2)
         
@@ -40,7 +40,7 @@ class VideoModel: NSObject {
         //assignment of properties
         video3.videoId = "kfVsfOSbJYO"
         video3.videoTitle  = "Rebecca Black - Friday"
-        video3.description = "video3"
+        video3.videoDescription = "video3"
         
         videos.append(video3)
         
@@ -49,7 +49,7 @@ class VideoModel: NSObject {
         //assignment of properties
         video4.videoId = "WDZJPJV_bQ"
         video4.videoTitle  = "Beyonce - Formation"
-        video4.description = "video4"
+        video4.videoDescription = "video4"
         
         videos.append(video4)
 
@@ -58,7 +58,7 @@ class VideoModel: NSObject {
         //assignment of properties
         video5.videoId = "VBmMU_iwe6U"
         video5.videoTitle  = "Beyonce - Run the World (Girls)"
-        video5.description = "video5"
+        video5.videoDescription = "video5"
 
         
         return videos
