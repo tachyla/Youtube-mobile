@@ -33,7 +33,7 @@ class VideoModel: NSObject {
         video2.videoTitle  = "PSY - GANGNAM STYLE"
         video2.videoDescription = "video2"
         
-        videos.append(video2)
+        videos += [video2]
         
         //create video3 object
         let video3 = Video()
@@ -42,7 +42,7 @@ class VideoModel: NSObject {
         video3.videoTitle  = "Rebecca Black - Friday"
         video3.videoDescription = "video3"
         
-        videos.append(video3)
+        videos += [video3]
         
         //create video4 object
         let video4 = Video()
@@ -51,7 +51,7 @@ class VideoModel: NSObject {
         video4.videoTitle  = "Beyonce - Formation"
         video4.videoDescription = "video4"
         
-        videos.append(video4)
+        videos += [video4]
 
         //create video5 object
         let video5 = Video()
@@ -59,6 +59,8 @@ class VideoModel: NSObject {
         video5.videoId = "VBmMU_iwe6U"
         video5.videoTitle  = "Beyonce - Run the World (Girls)"
         video5.videoDescription = "video5"
+        
+        videos += [video5]
 
         
         return videos
