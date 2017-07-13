@@ -14,6 +14,8 @@
 		0FB9BA951F171E9000BC113B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB9BA931F171E9000BC113B /* LaunchScreen.storyboard */; };
 		0FB9BAA01F171E9000BC113B /* Youtube_video_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9BA9F1F171E9000BC113B /* Youtube_video_listTests.swift */; };
 		0FB9BAAB1F171E9000BC113B /* Youtube_video_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9BAAA1F171E9000BC113B /* Youtube_video_listUITests.swift */; };
+		0FB9BAB91F172BB100BC113B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9BAB81F172BB100BC113B /* Video.swift */; };
+		0FB9BABB1F172D9D00BC113B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9BABA1F172D9D00BC113B /* VideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0FB9BAA61F171E9000BC113B /* Youtube-video-listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Youtube-video-listUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB9BAAA1F171E9000BC113B /* Youtube_video_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_video_listUITests.swift; sourceTree = "<group>"; };
 		0FB9BAAC1F171E9000BC113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FB9BAB81F172BB100BC113B /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		0FB9BABA1F172D9D00BC113B /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				0FB9BA8A1F171E9000BC113B /* AppDelegate.swift */,
 				0FB9BA8C1F171E9000BC113B /* ViewController.swift */,
+				0FB9BAB81F172BB100BC113B /* Video.swift */,
 				0FB9BA8E1F171E9000BC113B /* Main.storyboard */,
 				0FB9BA911F171E9000BC113B /* Assets.xcassets */,
 				0FB9BA931F171E9000BC113B /* LaunchScreen.storyboard */,
 				0FB9BA961F171E9000BC113B /* Info.plist */,
+				0FB9BABA1F172D9D00BC113B /* VideoModel.swift */,
 			);
 			path = "Youtube-video-list";
 			sourceTree = "<group>";
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FB9BA8D1F171E9000BC113B /* ViewController.swift in Sources */,
+				0FB9BAB91F172BB100BC113B /* Video.swift in Sources */,
 				0FB9BA8B1F171E9000BC113B /* AppDelegate.swift in Sources */,
+				0FB9BABB1F172D9D00BC113B /* VideoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +522,7 @@
 				0FB9BAB11F171E9000BC113B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FB9BAB21F171E9000BC113B /* Build configuration list for PBXNativeTarget "Youtube-video-listTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				0FB9BAB41F171E9000BC113B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FB9BAB51F171E9000BC113B /* Build configuration list for PBXNativeTarget "Youtube-video-listUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				0FB9BAB71F171E9000BC113B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
