@@ -53,13 +53,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView,willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let videoTitle = videos[indexPath.row].videoTitle
         
-        //Customize the cell to display the video tytle
+        //Customize the cell to display the video title
         //cell.textLabel?.text = videoTitle
+        
+        let label = cell.viewWithTag(2) as! UILabel
+        label.text = videoTitle
         
         
         
         //construct the video thumbnail url
-        let videoThumbnailUrlString = "https://i.ytimg.com/vi/" + videos[indexPath.row].videoId + "/hqdefault.jpg"
+        let videoThumbnailUrlString = "https://i.ytimg.com/vi/" + videos[indexPath.row].videoId + "/maxresdefault.jpg"
         
         //create a Url object
         //check if the value is nil
