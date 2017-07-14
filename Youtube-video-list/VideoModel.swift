@@ -20,12 +20,13 @@ class VideoModel: NSObject {
         //create video1 object
         let video1 = Video()
         //assignment of properties
-        video1.videoId = "jofNR_WkoCE"
-        video1.videoTitle  = "Ylvis - The Fox(What does The Fox Say?)"
-        video1.videoDescription = "video1"
+        video1.videoId = "VBmMU_iwe6U"
+        video1.videoTitle  = "Beyonce - Run the World (Girls)"
+        video1.videoDescription = "video5"
         
         videos.append(video1)
         
+        /*
         //create video2 object
         let video2 = Video()
         //assignment of properties
@@ -56,12 +57,11 @@ class VideoModel: NSObject {
         //create video5 object
         let video5 = Video()
         //assignment of properties
-        video5.videoId = "VBmMU_iwe6U"
-        video5.videoTitle  = "Beyonce - Run the World (Girls)"
-        video5.videoDescription = "video5"
+        video5.videoId = "jofNR_WkoCE"
+        video5.videoTitle  = "Ylvis - The Fox(What does The Fox Say?)"
+        video5.videoDescription = "video1"
         
-        videos += [video5]
-
+        videos += [video5]*/
         
         return videos
         

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F939B141F184BC100D6774B /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F939B131F184BC100D6774B /* VideoTableViewCell.swift */; };
 		0FB9BA8B1F171E9000BC113B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9BA8A1F171E9000BC113B /* AppDelegate.swift */; };
 		0FB9BA8D1F171E9000BC113B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9BA8C1F171E9000BC113B /* ViewController.swift */; };
 		0FB9BA901F171E9000BC113B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB9BA8E1F171E9000BC113B /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F939B131F184BC100D6774B /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		0FB9BA871F171E9000BC113B /* Youtube-video-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube-video-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB9BA8A1F171E9000BC113B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB9BA8C1F171E9000BC113B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				0FB9BA8A1F171E9000BC113B /* AppDelegate.swift */,
 				0FB9BA8C1F171E9000BC113B /* ViewController.swift */,
+				0F939B131F184BC100D6774B /* VideoTableViewCell.swift */,
 				0FB9BAB81F172BB100BC113B /* Video.swift */,
 				0FB9BA8E1F171E9000BC113B /* Main.storyboard */,
 				0FB9BA911F171E9000BC113B /* Assets.xcassets */,
@@ -272,6 +275,7 @@
 				0FB9BAB91F172BB100BC113B /* Video.swift in Sources */,
 				0FB9BA8B1F171E9000BC113B /* AppDelegate.swift in Sources */,
 				0FB9BABB1F172D9D00BC113B /* VideoModel.swift in Sources */,
+				0F939B141F184BC100D6774B /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
